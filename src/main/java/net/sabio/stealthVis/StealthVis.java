@@ -6,8 +6,8 @@ public final class StealthVis extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new StealthVisListener(this), this);
+        getLogger().info("[StealthVis] StealthVis v1.0 activated!");
     }
 
     @Override
