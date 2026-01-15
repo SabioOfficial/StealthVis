@@ -1,0 +1,6 @@
+name: StealthVis
+version: '1.0.0'
+main: net.sabio.stealthVis.StealthVis
+api-version: '1.21'
+authors: [ Sabio ]
+website: sabiothedev.xyz
